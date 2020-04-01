@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,13 +11,16 @@
 		6F65B666243077A6007E5E4F /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F65B664243077A6007E5E4F /* Interface.storyboard */; };
 		6F65B668243077A7007E5E4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F65B667243077A7007E5E4F /* Assets.xcassets */; };
 		6F65B66F243077A8007E5E4F /* Quiz WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6F65B66E243077A8007E5E4F /* Quiz WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		6F65B674243077A8007E5E4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F65B673243077A8007E5E4F /* ContentView.swift */; };
+		6F65B674243077A8007E5E4F /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F65B673243077A8007E5E4F /* QuestionView.swift */; };
 		6F65B676243077A8007E5E4F /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F65B675243077A8007E5E4F /* HostingController.swift */; };
 		6F65B678243077A8007E5E4F /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F65B677243077A8007E5E4F /* ExtensionDelegate.swift */; };
 		6F65B67A243077A8007E5E4F /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F65B679243077A8007E5E4F /* NotificationController.swift */; };
 		6F65B67C243077A8007E5E4F /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F65B67B243077A8007E5E4F /* NotificationView.swift */; };
 		6F65B67E243077A8007E5E4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F65B67D243077A8007E5E4F /* Assets.xcassets */; };
 		6F65B681243077A8007E5E4F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F65B680243077A8007E5E4F /* Preview Assets.xcassets */; };
+		6F65B69624309E23007E5E4F /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F65B69524309E23007E5E4F /* StartView.swift */; };
+		6F65B69824309F03007E5E4F /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F65B69724309F03007E5E4F /* Question.swift */; };
+		6F65B69A24315C7F007E5E4F /* AnswersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F65B69924315C7F007E5E4F /* AnswersView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +72,7 @@
 		6F65B667243077A7007E5E4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F65B669243077A7007E5E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F65B66E243077A8007E5E4F /* Quiz WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Quiz WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6F65B673243077A8007E5E4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6F65B673243077A8007E5E4F /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		6F65B675243077A8007E5E4F /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
 		6F65B677243077A8007E5E4F /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		6F65B679243077A8007E5E4F /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
@@ -78,6 +81,9 @@
 		6F65B680243077A8007E5E4F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6F65B682243077A8007E5E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6F65B683243077A8007E5E4F /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		6F65B69524309E23007E5E4F /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		6F65B69724309F03007E5E4F /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		6F65B69924315C7F007E5E4F /* AnswersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswersView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,11 +129,11 @@
 		6F65B672243077A8007E5E4F /* Quiz WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				6F65B673243077A8007E5E4F /* ContentView.swift */,
-				6F65B675243077A8007E5E4F /* HostingController.swift */,
+				6F65B69124307812007E5E4F /* Models */,
+				6F65B69324307821007E5E4F /* Views */,
+				6F65B6922430781B007E5E4F /* Containers */,
+				6F65B69424308D18007E5E4F /* Controllers */,
 				6F65B677243077A8007E5E4F /* ExtensionDelegate.swift */,
-				6F65B679243077A8007E5E4F /* NotificationController.swift */,
-				6F65B67B243077A8007E5E4F /* NotificationView.swift */,
 				6F65B67D243077A8007E5E4F /* Assets.xcassets */,
 				6F65B682243077A8007E5E4F /* Info.plist */,
 				6F65B683243077A8007E5E4F /* PushNotificationPayload.apns */,
@@ -142,6 +148,41 @@
 				6F65B680243077A8007E5E4F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6F65B69124307812007E5E4F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6F65B69724309F03007E5E4F /* Question.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6F65B6922430781B007E5E4F /* Containers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Containers;
+			sourceTree = "<group>";
+		};
+		6F65B69324307821007E5E4F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6F65B67B243077A8007E5E4F /* NotificationView.swift */,
+				6F65B673243077A8007E5E4F /* QuestionView.swift */,
+				6F65B69524309E23007E5E4F /* StartView.swift */,
+				6F65B69924315C7F007E5E4F /* AnswersView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6F65B69424308D18007E5E4F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6F65B675243077A8007E5E4F /* HostingController.swift */,
+				6F65B679243077A8007E5E4F /* NotificationController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +261,7 @@
 				};
 			};
 			buildConfigurationList = 6F65B658243077A6007E5E4F /* Build configuration list for PBXProject "Quiz" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 11.4";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -273,9 +314,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F65B676243077A8007E5E4F /* HostingController.swift in Sources */,
-				6F65B674243077A8007E5E4F /* ContentView.swift in Sources */,
+				6F65B674243077A8007E5E4F /* QuestionView.swift in Sources */,
+				6F65B69A24315C7F007E5E4F /* AnswersView.swift in Sources */,
 				6F65B67A243077A8007E5E4F /* NotificationController.swift in Sources */,
+				6F65B69624309E23007E5E4F /* StartView.swift in Sources */,
 				6F65B678243077A8007E5E4F /* ExtensionDelegate.swift in Sources */,
+				6F65B69824309F03007E5E4F /* Question.swift in Sources */,
 				6F65B67C243077A8007E5E4F /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
