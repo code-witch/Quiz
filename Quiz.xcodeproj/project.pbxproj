@@ -21,6 +21,7 @@
 		6F65B69624309E23007E5E4F /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F65B69524309E23007E5E4F /* StartView.swift */; };
 		6F65B69824309F03007E5E4F /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F65B69724309F03007E5E4F /* Question.swift */; };
 		6F65B69A24315C7F007E5E4F /* AnswersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F65B69924315C7F007E5E4F /* AnswersView.swift */; };
+		6FAFBD3724363FFA00333C49 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAFBD3624363FFA00333C49 /* Category.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,7 @@
 		6F65B69524309E23007E5E4F /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		6F65B69724309F03007E5E4F /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		6F65B69924315C7F007E5E4F /* AnswersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswersView.swift; sourceTree = "<group>"; };
+		6FAFBD3624363FFA00333C49 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				6F65B69724309F03007E5E4F /* Question.swift */,
+				6FAFBD3624363FFA00333C49 /* Category.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				6F65B69A24315C7F007E5E4F /* AnswersView.swift in Sources */,
 				6F65B67A243077A8007E5E4F /* NotificationController.swift in Sources */,
 				6F65B69624309E23007E5E4F /* StartView.swift in Sources */,
+				6FAFBD3724363FFA00333C49 /* Category.swift in Sources */,
 				6F65B678243077A8007E5E4F /* ExtensionDelegate.swift in Sources */,
 				6F65B69824309F03007E5E4F /* Question.swift in Sources */,
 				6F65B67C243077A8007E5E4F /* NotificationView.swift in Sources */,

@@ -12,6 +12,6 @@ import SwiftUI
 
 class HostingController: WKHostingController<StartView> {
     override var body: StartView {
-        return StartView()
+        return StartView(categories: [Category(name: "Category 1"), Category(name: "Category 2")])
     }
 }

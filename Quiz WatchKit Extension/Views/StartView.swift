@@ -9,18 +9,37 @@
 import SwiftUI
 
 struct StartView: View {
+    let categories: Array<Category>
     var body: some View {
-        QuestionView()
-//        Button(action: {}){
-//            Text("Begin!")
-//        }
+        List {
+            ForEach(categories) { category in
+                CategoryView(text: category.name, color: Color(red: category.red, green: category.green, blue: category.blue))
+                
+            }
+
+        }
+        .listStyle(CarouselListStyle())
     }
 }
+
+struct CategoryView: View {
+    let text: String
+    let color: Color
+    var body: some View {
+        Text(text)
+            .frame(height: 150)
+            .foregroundColor(Color.black)
+            .listRowBackground(color)
+            .font(.system(.caption, design: .rounded))
+            
+    }
+}
+
 
 #if DEBUG
 struct StartView_Previews: PreviewProvider {
     static var previews: some View {
-        StartView()
+        StartView(categories: [Category(name: "Category 1"), Category(name: "Category 2")])
     }
 }
 #endif
