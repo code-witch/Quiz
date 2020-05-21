@@ -32,7 +32,7 @@ struct AnswerView: View {
             }
                 .frame(height:150)
                 .font(.system(.title, design: .rounded))
-                .listRowBackground(color)
+        .listRowBackground(Rectangle().fill(color).cornerRadius(20))
                 .foregroundColor(Color.black)
     }
     

@@ -29,7 +29,7 @@ struct CategoryView: View {
         Text(text)
             .frame(height: 150)
             .foregroundColor(Color.black)
-            .listRowBackground(color)
+            .listRowBackground(Rectangle().fill(color).cornerRadius(20))
             .font(.system(.caption, design: .rounded))
             
     }
